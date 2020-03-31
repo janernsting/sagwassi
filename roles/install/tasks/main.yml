@@ -1,8 +1,11 @@
 ---
 - homebrew:
-    name: gnupg,jq,tig,vim
+    name: gnupg,jq,tig,vim,tree,tmate,byobu,httpie,peco,htop,fish,reattach-to-user-namespace
     state: latest
     update_homebrew: yes
+
+- pip:
+    name: http-prompt
 
 - homebrew_tap:
     name: AdoptOpenJDK/openjdk
