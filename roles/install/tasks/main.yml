@@ -8,11 +8,11 @@
     name: http-prompt
 
 - homebrew_tap:
-    name: AdoptOpenJDK/openjdk
+    name: homebrew/cask-fonts,AdoptOpenJDK/openjdk
     state: present
 
 - homebrew_cask:
-    name: caffeine,firefox,google-chrome,intellij-idea,skype,vagrant,adoptopenjdk8
+    name: caffeine,firefox,google-chrome,intellij-idea,skype,vagrant,adoptopenjdk8,font-source-code-pro-for-powerline
     state: present
     accept_external_apps: yes
 
